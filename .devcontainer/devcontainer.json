@@ -1,0 +1,8 @@
+{
+    "name": "Ez már a DEVKONTÉNER!",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "forwardPorts": [8080],
+    "postCreateCommand": "npm install"
+}
